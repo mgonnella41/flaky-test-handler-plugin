@@ -66,6 +66,7 @@ limitations under the License.
     </pluginRepository>
   </pluginRepositories>
   
+  <build>
   <plugins>
       <plugin>
             <groupId>org.codehaus.mojo</groupId>
@@ -86,6 +87,7 @@ limitations under the License.
                 </executions>
             </plugin>
         </plugins>
+	</build>
 
   <dependencies>
     <dependency>
