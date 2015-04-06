@@ -67,9 +67,8 @@ limitations under the License.
   </pluginRepositories>
   
   <plugins>
-    
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
+      <plugin>
+            <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
                 <version>2.5.1</version>
                 <configuration>
@@ -86,7 +85,6 @@ limitations under the License.
                     </execution>
                 </executions>
             </plugin>
-     
         </plugins>
 
   <dependencies>
