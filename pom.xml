@@ -76,10 +76,13 @@ limitations under the License.
                     <formats>
                         <format>xml</format>
                     </formats>
+                  <instrumentation>
+                  <ignoreTrivial>true</ignoreTrivial>
+                  </instrumentation>
                 </configuration>
                 <executions>
                     <execution>
-                        <phase>package</phase>
+                        <phase>test</phase>
                         <goals>
                             <goal>cobertura</goal>
                         </goals>
