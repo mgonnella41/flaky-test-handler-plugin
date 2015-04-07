@@ -13,7 +13,6 @@
  *  limitations under the License.
  */
 package com.google.jenkins.flakyTestHandler.junit;
-
 import com.google.jenkins.flakyTestHandler.plugin.JUnitFlakyAggregatedTestDataAction;
 
 import org.kohsuke.stapler.StaplerRequest;
@@ -119,7 +118,7 @@ public final class FlakyClassResult extends TabulatedResult implements
       return className.substring(idx + 1);
     }
   }
-
+  @CoverageIgnore //mgonnella41
   public
   @Override
   synchronized String getSafeName() {

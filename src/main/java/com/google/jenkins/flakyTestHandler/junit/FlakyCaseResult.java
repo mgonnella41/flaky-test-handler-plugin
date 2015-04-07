@@ -13,7 +13,6 @@
  *  limitations under the License.
  */
 package com.google.jenkins.flakyTestHandler.junit;
-
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
 
@@ -314,6 +313,7 @@ public class FlakyCaseResult extends TestResult implements Comparable<FlakyCaseR
   /**
    * Gets the version of {@link #getName()} that's URL-safe.
    */
+  @CoverageIgnore //mgonnella41
   public @Override synchronized String getSafeName() {
     if (safeName != null) {
       return safeName;
